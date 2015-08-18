@@ -83,6 +83,7 @@
 	/*Eliminates the padding from the list*/
 	ul {
 		padding: 0px;
+		display: inline;
 	}
 
 	/*Losing the bullets and padding the Table*/
