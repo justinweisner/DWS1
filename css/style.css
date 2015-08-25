@@ -35,7 +35,7 @@
 
 	/*Font Style and color*/	
 	h1, h2, h3 {
-		font-style: italic;
+		font-style: italic; 
 		color: #ff7f50;
 	}
 	
@@ -86,7 +86,7 @@
 	}
 
 	/*Losing the bullets and padding the Table*/
-	li#nav {
+	nav li {
 		list-style-type: none;
 		margin-left: 2%;
 		display: inline;
@@ -107,7 +107,7 @@
 	}
 	
 	/*Changes size/padding/float/font size/alignment for McMahon quote*/
-	aside{
+	aside p{
 		font-size: 1em;
 		width: 27.7%;
 		padding: 5%;
@@ -115,6 +115,14 @@
 		float: right;
 	}
 	
+	#intro{
+		width: 600px;
+		float: left;
+	}
+	
+	#titan{
+		clear:left;
+	}
 	
 /*SIDEBAR CONTENT*/	
 	
@@ -136,11 +144,54 @@
 	/*Border and resize for Headquarters images*/
 	figure#headquarters{
 		border: 2px solid #0000ff;
-		width: 96%;
+		width: 93%;
 		height: 250px;
-		margin: 50% 1% 1% 1%;
+		margin: 50% 1% 1% 4%;
 	}
 		
+/*TABLES*/
+	
+	.current, .development {
+		width: 41.6%;
+		margin: 0 0 0 1%;
+		padding: 1%;
+		float: left;
+	}
+	
+	.current{
+		height: 400px;
+	}
+	
+	.development{
+		height: 300px;
+	}
+
+	#wwetitles, #nxt {
+		width: 77.6%;
+		border: 2px solid #0000ff;
+		background-color: #ffe4b5;
+		border-spacing: 5px;
+	}
+	
+	.title{
+		text-align: left;
+	}
+	
+	th, td {
+		font-size: .938em;
+		border: 1px solid #ffebcd;
+		color: #000;
+		text-align: center;
+		letter-spacing: 1px;
+	}
+	
+	.odd{
+		background-color:#ffdead
+	}
+	
+	tr:hover {
+		background-color: #b0e0e6
+	}
 
 /*GALLERY*/
 	
@@ -153,7 +204,7 @@
 
 	/*Border size and effects for images*/
 	figure {
-		width: 29%;
+		width: 27.6%;
 		height: 19%;
 		margin: 2.7% .9% .9% .9%;
 		padding: .4% 0% .4% .4%;
@@ -170,7 +221,7 @@
 
 	/*Size and padding for this one image*/
 	figure#HHHSteph {
-		width: 12%;
+		width: 11.3%;
 		height: 16%;
 		margin: 2.7% .9% .9% .9%;
 		padding: .4% 0% 0% .4%;
@@ -182,17 +233,47 @@
    		text-align: left;
    		font-weight: normal;
    		width: 100%;
-   		margin-top: 3%;
+   		margin-top: 5%;
    	}
 
+
+/*FORMS*/
+	/*content area*/
+	#form {
+		width: 25%;
+		height: 250px;
+		margin : 10px;
+		overflow: auto;
+		padding: .5%;
+		font-size 1em;
+		color: #000;
+		border: 2px dotted #000;
+		text-align: left;
+		background-color: #f0ffff;
+		:hover
+	}
+	
+	#name, #gender, #age, #email, #comment {
+		padding: 0 0 4% 0;
+		
+	}
+	
+	input:focus {
+		background-color:#ff0
+	}
+	
 
 /*FOOTER*/
 	/*Positioning the footer*/
 	footer {
-		width: 18.5%;
-		padding: 2.7% 0% .9% 0%;
+		width: 40%;
+		padding: 1% 0% 1% 0%;
+		
 		text-align: left;
 		clear: left;
-		display: inline;
+	}
+	
+	footer a {
+		margin: 0 1% 0 0;
 	}
 		
