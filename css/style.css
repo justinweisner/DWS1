@@ -245,12 +245,11 @@
 		margin : 10px;
 		overflow: auto;
 		padding: .5%;
-		font-size 1em;
+		font-size: 1em;
 		color: #000;
 		border: 2px dotted #000;
 		text-align: left;
 		background-color: #f0ffff;
-		:hover
 	}
 	
 	#name, #gender, #age, #email, #comment {
