@@ -151,21 +151,22 @@
 		
 /*TABLES*/
 	
+	/*Size & float of tables*/
 	.current, .development {
 		width: 41.6%;
 		margin: 0 0 0 1%;
 		padding: 1%;
 		float: left;
 	}
-	
+	/*Size change*/
 	.current{
 		height: 400px;
 	}
-	
+	/*Size change*/
 	.development{
 		height: 300px;
 	}
-
+	/*Size change & Borders*/
 	#wwetitles, #nxt {
 		width: 77.6%;
 		border: 2px solid #0000ff;
@@ -176,7 +177,7 @@
 	.title{
 		text-align: left;
 	}
-	
+	/*Fonts and borders*/
 	th, td {
 		font-size: .938em;
 		border: 1px solid #ffebcd;
@@ -184,11 +185,11 @@
 		text-align: center;
 		letter-spacing: 1px;
 	}
-	
+	/*Change BG Color for every odd row*/
 	.odd{
 		background-color:#ffdead
 	}
-	
+	/*Change the BG Color when mouse is hovering a row*/
 	tr:hover {
 		background-color: #b0e0e6
 	}
